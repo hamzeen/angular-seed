@@ -11,7 +11,7 @@ $ grunt serve
 ####If bower install fails in your UNIX OS you may try
 ```$ sudo bower install --allow-root```
 
-> Following page should open up if all the above steps were successful <http://localhost:9000/#/landing>
+> You will be taken to <http://localhost:9000/#/landing> if all the above steps are successful
 
 
 ##### *Version: 0.0.1*
