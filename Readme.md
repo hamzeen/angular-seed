@@ -1,4 +1,4 @@
-# *Angular 1.5.X Seed*
+# *Angular 1.5.3 Seed*
 ### Running It
 
 ```sh
