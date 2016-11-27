@@ -1,0 +1,35 @@
+{
+  "name": "protractor-seed",
+  "version": "0.0.1",
+  "description": "a beautiful dashboard module for protractor",
+  "scripts": {
+    "postinstall": "cd node_modules/protractor/bin && webdriver-manager update --version.chrome=2.24",
+    "wd-start": "webdriver-manager start --version.chrome=2.25",
+    "e2e": "protractor conf.protractor.js"
+  },
+  "dependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.3.2",
+    "jasmine-json-test-reporter": "^1.0.0-beta",
+    "npm-run-all": "^3.1.1"
+  },
+  "devDependencies": {
+    "protractor": "^4.0.11"
+  },
+  "bin": {
+    "protractor": "node_moduels/bin/protractor",
+    "webdriver-manager": "node_modules/bin/webdriver-manager"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hamzeen/hamzeen.github.io.git"
+  },
+  "keywords": [
+    "selenium",
+    "protractor",
+    "jasmine",
+    "report"
+  ],
+  "author": "Hamzeen. H. <hamzeen@gmail.com>",
+  "license": "MIT",
+  "homepage": "http://hamzeen.github.io"
+}
